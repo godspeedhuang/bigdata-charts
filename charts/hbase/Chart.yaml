@@ -15,6 +15,6 @@ dependencies:
   repository: file://../hdfs
   condition: hdfs.enabled
 - name: zookeeper
-  version: ~6.3.0
+  version: ">=6.3.0"
   repository: https://charts.bitnami.com/bitnami
   condition: zookeeper.enabled
